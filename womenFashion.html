@@ -1,0 +1,52 @@
+<!-- women-fashion.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women's Fashion - ShopStyleHub</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>ShopStyleHub</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="womenFashion.html">Women's Fashion</a>
+    <a href="MensFashion.html">Men's Fashion</a>
+    <a href="kidsFashion.html">Kids' Fashion</a>
+    <a href="accessories.html">Accessories</a>
+    <a href="sale.html">Sale</a>
+    <a href="contactUs.html">Contact Us</a>
+  </nav>
+
+  <section>
+    <!-- Women's Fashion Products -->
+    <div class="product">
+      <img src="https://img.freepik.com/premium-photo/beautiful-elegant-evening-dress-white-background_236836-19627.jpg?w=2000" alt="Women's Product 1">
+      <h2>Elegant Evening Dress</h2>
+      <p>Price: $89.99</p>
+      <button class="add-to-cart" onclick="addToCart('Elegant Evening Dress', 89.99)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://littleboxindia.com/cdn/shop/products/c4571bdaa5a307d8d5e1efbb55e178e3_540x.jpg?v=1680794771" alt="Women's Product 2">
+      <h2>Casual Summer Outfit</h2>
+      <p>Price: $59.99</p>
+      <button class="add-to-cart" onclick="addToCart('Casual Summer Outfit', 59.99)">Add to Cart</button>
+    </div>
+    <!-- Example in your HTML file -->
+<div id="shopping-cart">
+    <h2>Shopping Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0.00</span></p>
+  </div>
+  </section>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
